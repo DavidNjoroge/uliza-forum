@@ -1,5 +1,5 @@
 <div class="questio">
-  <p class="head">{{post.question}}</p>
+  {{#link-to 'post' post.id}}<p class="head">{{post.question}}</p>{{/link-to}}
   <p class="small">By  <strong>{{post.author}}</strong><span>comments: 10</span></p>
 {{update-post post=post update='update'}}
 </div>
