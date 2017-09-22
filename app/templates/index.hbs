@@ -9,20 +9,9 @@
       <h3>Top Stories</h3>
       ccccc
       {{#each model as |post|}}
-      <div class="question">
-        <p class="head">{{post.question}}</p>
-        <p class="small">By <strong>post.author</strong><span>comments: 10</span></p>
-      </div>
+        {{post-tile post=post}}
       {{/each}}
       ccccc
-      <div class="question">
-        <p class="head">how root a kabambe phone</p>
-        <p class="small">By <strong>david mwangi</strong><span>comments: 10</span></p>
-      </div>
-      <div class="question">
-        <p class="head">how root a kabambe phone</p>
-        <p class="small">By <strong>david mwangi</strong><span>comments: 10</span></p>
-      </div>
     </div>
     <div class="col-md-3">
       <button type="button" class="btn" name="button">Ask Question ?``</button>
