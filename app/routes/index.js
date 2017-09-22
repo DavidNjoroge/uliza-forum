@@ -11,8 +11,16 @@ export default Ember.Route.extend({
       this.transitionTo('index')
     },
     destroyPost(post) {
-      // post.destroyRecord()
-      alert('you have come along way grasshopper')
+      post.destroyRecord()
+      this.transitionTo('index')
+    },
+    update(post, params) {
+      Object.keys(params).forEach(function(key) {
+        if (params[key] !== undefined) {
+          post.set(key, params[key])
+        }
+      })
+      post.save()
       this.transitionTo('index')
     }
   }

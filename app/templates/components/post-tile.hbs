@@ -1,4 +1,5 @@
 <div class="questio">
   <p class="head">{{post.question}}<button {{action 'delete' post}}>delete</button></p>
-  <p class="small">By <strong>post.author</strong><span>comments: 10</span></p>
+  <p class="small">By  <strong>{{post.author}}</strong><span>comments: 10</span></p>
+{{update-post post=post update='update'}}
 </div>
