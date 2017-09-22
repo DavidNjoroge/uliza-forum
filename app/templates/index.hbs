@@ -7,10 +7,14 @@
   <div class="row">
     <div class="col-md-8">
       <h3>Top Stories</h3>
+      ccccc
+      {{#each model as |post|}}
       <div class="question">
-        <p class="head">how root a kabambe phone</p>
-        <p class="small">By <strong>david mwangi</strong><span>comments: 10</span></p>
+        <p class="head">{{post.question}}</p>
+        <p class="small">By <strong>post.author</strong><span>comments: 10</span></p>
       </div>
+      {{/each}}
+      ccccc
       <div class="question">
         <p class="head">how root a kabambe phone</p>
         <p class="small">By <strong>david mwangi</strong><span>comments: 10</span></p>
