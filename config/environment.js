@@ -17,6 +17,12 @@ module.exports = function(environment) {
         Date: false
       }
     },
+    firebase: {
+      apiKey: "AIzaSyByY43NT_3UXY4HiMOTuJ2etORq80WeaVc",
+      authDomain: "uliza-forums.firebaseapp.com",
+      databaseURL: "https://uliza-forums.firebaseio.com",
+      storageBucket: 'YOUR-FIREBASE-APP.appspot.com'
+    },
 
     APP: {
       // Here you can pass flags/options to your application instance

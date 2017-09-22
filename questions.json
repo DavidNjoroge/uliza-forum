@@ -1,0 +1,23 @@
+{
+  "posts": [{
+    "id": 1,
+    "author": "david mwangi",
+    "question": "how to root a kabambe phone",
+    "content": "i want to install some root apps and need to root the phone, any help is appreciated"
+  }, {
+    "id": 2,
+    "author": "david mnjoroge",
+    "question": "how to use firebase",
+    "content": "i want to install some root apps and need to root the phone, any help is appreciated"
+  }, {
+    "id": 3,
+    "author": "njoroge mwangi",
+    "question": "ember mixin problem",
+    "content": "i want to install some root apps and need to root the phone, any help is appreciated"
+  }, {
+    "id": 4,
+    "author": "david mwangi",
+    "question": "how to root a kabambe phone",
+    "content": "i want to install some root apps and need to root the phone, any help is appreciated"
+  }]
+}
