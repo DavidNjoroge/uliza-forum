@@ -8,9 +8,15 @@
     <div class="col-md-8">
       <h3>Top Stories</h3>
       ccccc
-      {{#each model as |post|}}
+      {{#each model.posts as |post|}}
         {{post-tile post=post upate="update" destroyPost="destroyPost"}}
       {{/each}}
+      <h2>answers</h2>
+      <ul>
+  {{#each model.answers as |answer|}}
+    <li>{{answer.content}} by {{answer.author}}</li>
+  {{/each}}
+</ul>
       ccccc
     </div>
     <div class="col-md-3">
