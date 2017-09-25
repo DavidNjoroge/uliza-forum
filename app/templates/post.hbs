@@ -1,2 +1,11 @@
-{{update-post post=model update="update"}}
 {{post-detail post=model destroyPost="destroyPost"}}
+{{new-answer saveAnswer='saveAnswer' post=model}}
+<div class="anser">
+  <h2>answers</h2>
+  <ul>
+{{#each model.answers as |answer|}}
+{{answer-tile answer=answer}}
+{{/each}}
+</ul>
+
+</div>

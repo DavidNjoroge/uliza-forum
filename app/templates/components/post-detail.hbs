@@ -7,16 +7,7 @@
   <div class="post">
 <h3>{{post.question}}<button {{action 'delete' post}}>delete</button></h3>
 <p>{{post.content}}</p>
-
 by david mwangi
   </div>
-  <div class="anser">
-    <h2>answers</h2>
-    <ul>
-{{#each model.answers as |answer|}}
-  <li>{{answer.content}} by {{answer.author}}</li>
-{{/each}}
-</ul>
-{{new-answer saveAnswer='saveAnswer'}}
-  </div>
+
 </div>
